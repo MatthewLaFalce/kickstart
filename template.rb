@@ -130,7 +130,5 @@ after_bundle do
   say
   say "  # Update config/database.yml with your database credentials"
   say
-  say "  rails db:create db:migrate"
-  say "  gem install foreman"
   say "  bin/dev"
 end

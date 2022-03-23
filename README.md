@@ -35,7 +35,7 @@ rails new myapp --database=postgresql --css=tailwind --skip-bundle --skip-test -
 #### Running your app
 
 ```bash
-foreman start
+bin/dev
 ```
 
 You can also run them in separate terminals manually if you prefer.
