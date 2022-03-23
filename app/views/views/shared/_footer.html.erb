@@ -1,0 +1,62 @@
+<!--Footer-->
+<% footer_link_class = "font-light no-underline hover:underline text-gray-800 hover:text-orange-500" %>
+<footer class="bg-white ">
+  <div class="container mx-auto mt-8 px-8">
+    <div class="w-full flex flex-col md:flex-row py-6">
+      <div class="flex-1 mb-6">
+        <a class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#" >
+          <svg class="h-6 w-6 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" >
+            <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z" />
+          </svg>
+            <%= Rails.configuration.application_name %>
+        </a>
+      </div>
+
+      <div class="flex-1">
+        <p class="uppercase font-extrabold text-gray-500 md:mb-6">Links</p>
+        <ul class="list-reset mb-6">
+          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+            <%= link_to "FAQ", '#', class: footer_link_class %>
+          </li>
+          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+            <%= link_to "Help", '#', class: footer_link_class %>
+          </li>
+          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+            <%= link_to "Support", '#', class: footer_link_class %>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex-1">
+        <p class="uppercase font-extrabold text-gray-500 md:mb-6">Legal</p>
+        <ul class="list-reset mb-6">
+          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+            <%= link_to "Privacy", privacy_path, class: footer_link_class %>
+          </li>
+          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+            <%= link_to "Terms", terms_path, class: footer_link_class %>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="flex-1">
+        <p class="uppercase font-extrabold text-gray-500 md:mb-6">
+        Company
+        </p>
+        <ul class="list-reset mb-6">
+          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+            <%= link_to "Official Blog", '#', class: footer_link_class %>
+          </li>
+          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+            <%= link_to "About Us", '#', class: footer_link_class %>
+          </li>
+          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+            <%= link_to "Contact", '#', class: footer_link_class %>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</footer>

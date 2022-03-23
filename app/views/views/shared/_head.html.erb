@@ -1,0 +1,75 @@
+<title><%= Rails.configuration.application_name %></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<%= csrf_meta_tags %>
+<%= csp_meta_tag %>
+
+<%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= javascript_importmap_tags %>
+
+<style>
+.gradient {
+  background-image: linear-gradient(-225deg, #cbbacc 0%, #2580b3 100%);
+}
+
+    button,
+    .gradient2 {
+      background-color: #f39f86;
+      background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+    }
+
+        /* Browser mockup code
+ * Contribute: https://gist.github.com/jarthod/8719db9fef8deb937f4f
+ * Live example: https://updown.io
+ */
+
+    .browser-mockup {
+      border-top: 2em solid rgba(230, 230, 230, 0.7);
+      position: relative;
+      height: 60vh;
+    }
+
+    .browser-mockup:before {
+      display: block;
+      position: absolute;
+      content: "";
+      top: -1.25em;
+      left: 1em;
+      width: 0.5em;
+      height: 0.5em;
+      border-radius: 50%;
+      background-color: #f44;
+      box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+    }
+
+    .browser-mockup.with-tab:after {
+      display: block;
+      position: absolute;
+      content: '';
+      top: -1.6em;
+      left: 5.5em;
+      width: 20%;
+      height: 0em;
+      border-bottom: 2em solid white;
+      border-left: 0.8em solid transparent;
+      border-right: 0.8em solid transparent;
+    }
+
+    .browser-mockup.with-url:after {
+      display: block;
+      position: absolute;
+      content: '';
+      top: -1.6em;
+      left: 5.5em;
+      width: calc(100% - 6em);
+      height: 1.2em;
+      border-radius: 2px;
+      background-color: white;
+    }
+
+    .browser-mockup>* {
+      display: block;
+    }
+</style>
