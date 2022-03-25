@@ -35,6 +35,8 @@ end
 
 def add_gems
   add_gem 'awesome_print', '~> 1.9', '>= 1.9.2', group: :development
+  add_gem 'annotate', group: :development
+  add_gem 'faker', group: :development
 
   # DO THIS AFTER ALL GEMS ARE SET
   # Replace 'string' with "string" in the Gemfile so RuboCop is happy
@@ -72,6 +74,10 @@ def copy_templates
   route "get '/about_us', to: 'static#about_us'"
 end
 
+def add_annotate
+  rails_command 'generate annotate:install'
+end
+
 def add_tailwind
   rails_command "tailwindcss:install"
 end
@@ -102,6 +108,7 @@ after_bundle do
   set_application_name
   add_javascript_pipeline
   add_tailwind
+  add_annotate
 
   # Make sure Linux is in the Gemfile.lock for deploying
   run "bundle lock --add-platform x86_64-linux"

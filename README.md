@@ -18,6 +18,12 @@ You'll need the following installed to run the template successfully:
 * Yarn - `brew install yarn` or [Install Yarn](https://yarnpkg.com/en/docs/install)
 * Foreman (optional) - `gem install foreman` - helps run all your processes in development
 
+#### Features
+* Development Gems
+  - [annotate](https://github.com/ctran/annotate_models) - Annotate Rails classes with schema and routes info.
+  - [awesome_print](https://github.com/awesome-print/awesome_print) - Pretty print your Ruby objects with style in full color and with proper indentation.
+  - [faker](https://github.com/faker-ruby/faker) - A library for generating fake data such as names, addresses, and phone numbers.
+
 #### Creating a new app
 
 ```bash
