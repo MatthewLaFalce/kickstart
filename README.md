@@ -23,27 +23,27 @@ You'll need the following installed to run the template successfully:
   - [annotate](https://github.com/ctran/annotate_models) - Annotate Rails classes with schema and routes info.
   - [awesome_print](https://github.com/awesome-print/awesome_print) - Pretty print your Ruby objects with style in full color and with proper indentation.
   - [faker](https://github.com/faker-ruby/faker) - A library for generating fake data such as names, addresses, and phone numbers.
-  - (Comming Soon) [letter_opener_web](https://github.com/fgrehm/letter_opener_web) - A web interface for browsing Ruby on Rails sent emails.
+  - `Comming Soon` [letter_opener_web](https://github.com/fgrehm/letter_opener_web) - A web interface for browsing Ruby on Rails sent emails.
 
 * Security
-  - (Comming Soon) [brakeman](https://github.com/presidentbeef/brakeman) - Detects security vulnerabilities in Ruby on Rails applications via static analysis.
-  - (Comming Soon) [bundler-audi](https://github.com/rubysec/bundler-audit#readme) - Provides patch-level verification for Bundled apps.
+  - `Comming Soon` [brakeman](https://github.com/presidentbeef/brakeman) - Detects security vulnerabilities in Ruby on Rails applications via static analysis.
+  - `Comming Soon` [bundler-audi](https://github.com/rubysec/bundler-audit#readme) - Provides patch-level verification for Bundled apps.
 
 * Authentication/Administration
-  - (Comming Soon) [avo](https://github.com/avo-hq/avo) - Configuration-based, no-maintenance, extendable Ruby on Rails admin.
-  - (Comming Soon) [devise](https://github.com/heartcombo/devise) - Flexible authentication solution for Rails with Warden.
-  - (Comming Soon) [pretender](https://github.com/ankane/pretender) - Log in as another user in Rails.
-  - (Comming Soon) [pundit](https://github.com/varvet/pundit) - Object oriented authorization for Rails applications.
+  - `Comming Soon` [avo](https://github.com/avo-hq/avo) - Configuration-based, no-maintenance, extendable Ruby on Rails admin.
+  - `Comming Soon` [devise](https://github.com/heartcombo/devise) - Flexible authentication solution for Rails with Warden.
+  - `Comming Soon` [pretender](https://github.com/ankane/pretender) - Log in as another user in Rails.
+  - `Comming Soon` [pundit](https://github.com/varvet/pundit) - Object oriented authorization for Rails applications.
 
 * Job Processing
-  - (Comming Soon) [good_job](https://github.com/bensheldon/good_job) - A multithreaded, Postgres-based ActiveJob backend for Ruby on Rails
+  - `Comming Soon` [good_job](https://github.com/bensheldon/good_job) - A multithreaded, Postgres-based ActiveJob backend for Ruby on Rails
 
 * Other
-  - (Comming Soon) [friendly_id](https://github.com/norman/friendly_id) - Create pretty URLs and work with human-friendly strings as if they were numeric ids.
-  - (Comming Soon) [name_of_person](https://github.com/basecamp/name_of_person) - Presenting names of people in full, familiar, abbreviated, and initialized forms (but without titulation etc)
-  - (Comming Soon) [sitemap_generator](https://github.com/kjvarga/sitemap_generator) - SitemapGenerator is a framework-agnostic XML Sitemap generator.
-  - (Comming Soon) [inline_svg](https://github.com/jamesmartin/inline_svg) - Get an SVG into your view and then style it with CSS.
-  - (Comming Soon) [responders](https://github.com/heartcombo/responders) - A set of Rails responders to dry up your application.
+  - `Comming Soon` [friendly_id](https://github.com/norman/friendly_id) - Create pretty URLs and work with human-friendly strings as if they were numeric ids.
+  - `Comming Soon` [name_of_person](https://github.com/basecamp/name_of_person) - Presenting names of people in full, familiar, abbreviated, and initialized forms (but without titulation etc)
+  - `Comming Soon` [sitemap_generator](https://github.com/kjvarga/sitemap_generator) - SitemapGenerator is a framework-agnostic XML Sitemap generator.
+  - `Comming Soon` [inline_svg](https://github.com/jamesmartin/inline_svg) - Get an SVG into your view and then style it with CSS.
+  - `Comming Soon` [responders](https://github.com/heartcombo/responders) - A set of Rails responders to dry up your application.
 
 #### Creating a new app
 
