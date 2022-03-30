@@ -6,6 +6,8 @@ All your Rails apps should start off with a bunch of great defaults.
 
 Kickstart is a Rails template, so you pass it in as an option when creating a new app.
 
+![DemoApp.png](DemoApp.png)
+
 #### Requirements
 
 You'll need the following installed to run the template successfully:
